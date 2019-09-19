@@ -6,7 +6,8 @@ import router from './router'
 import Axios from "axios"
 
 Vue.prototype.$axios = Axios;
-Vue.prototype.HOST = "/baidu_music_api"
+Vue.prototype.HOST = "/v1"
+// Vue.prototype.HOST = "http://tingapi.ting.baidu.com"
 
 Vue.config.productionTip = false
 

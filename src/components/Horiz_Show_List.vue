@@ -43,7 +43,7 @@ export default {
 }
 </script>
 
-<style  scoped >
+<style lang="scss"  scoped >
 .scroller{
    width: 100%;
    height: 100%;
@@ -75,6 +75,9 @@ export default {
    align-items: center;
    justify-content: center;
    list-style: none;
+   >img{
+      
+   }
   
 }
 </style>
